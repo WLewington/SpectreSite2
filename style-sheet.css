@@ -21,7 +21,7 @@ a{
     color: white;
 }
 
-nav li{
+nav ul{
     display: inline-block;
     margin-right: 30px; 
 }
@@ -38,6 +38,13 @@ nav li{
     background-color: #333;
     padding: 20px;
     list-style-type: none;
+}
+
+.bannerIndex img{
+    float: right;
+    width: 50px;
+    position: relative;
+    offset: 10px;
 }
 
 nav li{
