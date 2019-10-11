@@ -1,0 +1,46 @@
+
+
+
+/* ========= Global Styles ======= */
+body{ 
+    font-size: 20px;
+    /* background: black; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Avenir", 
+    "Arial Narrow Bold";
+}
+
+.nav{
+    display: inline;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 30px; 
+}
+
+
+
+
+
+
+/* ========= Banner Styles ======= */
+
+
+.bannerIndex div{
+    background-color: #333;
+    padding: 20px;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 30px; 
+}
