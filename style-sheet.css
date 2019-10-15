@@ -13,6 +13,7 @@ a{
     font-family: 'Libre Franklin', sans-serif;
 }
 
+
 a:hover{
     color:rgb(138, 138, 138);
 }
@@ -44,15 +45,7 @@ nav ul li a{
 
 
 /* ========= Banner Styles ======= */
-
-
-.bannerIndex nav{
-    background-color: rgb(54, 54, 54);
-    padding: 5px;
-    list-style-type: none;
-}
-
-.bannerIndex img{
+.bannerLogo{    
     width: 50px;
     padding: 10px;
     position: relative;
@@ -62,12 +55,24 @@ nav ul li a{
 
 
 /* ==== Product Banner Styles ==== */
-
 .drone_types{
     background-color: rgb(245, 245, 245);
     height: 200px;
 } 
+.drone_types ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 .drone_types ul li a{
     color:rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    text-align: center;
+    
 }

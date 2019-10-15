@@ -2,50 +2,97 @@
 <html lang="en">
 <head>
     <title> Spectre-Systems </title>
+    <link   href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" 
+            rel="stylesheet">
+
+    <link   rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+            crossorigin="anonymous">
+
     <link   rel  = "stylesheet"
             type = "text/css"
             href = "style-sheet.css"/> 
-
-    <link   href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" 
-            rel="stylesheet">
 </head>
 
+
 <body>
-<header class = "bannerIndex">
-    <nav> 
-        <ul>    
-            <li><img src="images\symbols\logo_white.png" alt="Spectre-Systems Logo"/></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="secruity.html">Active Security</a></li>
-            <li><a href="computing.html">Computing</a></li>
-            <li><a href="printers.html">3D-Printing </a></li>
+<header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <img    class = "bannerLogo"    
+                src="images\symbols\logo_white.png" 
+                alt="Spectre-Systems Logo"/>
+        <a class="navbar-brand" href="#">Spectre Systems</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a  class="nav-link dropdown-toggle" 
+                    href="#" 
+                    id="dropdown07" 
+                    data-toggle="dropdown" 
+                    aria-haspopup="true" 
+                    aria-expanded="false">Home</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown07">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Active Security <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">3D-Printing <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
         </ul>
-    </nav>
+        </div>
+    </div>
+</nav>
+
+
+
 </header>
 <nav class = "drone_types">
     <ul>
         <li>
-		    <a class="chapternav-link" href="/uk/ipados/">HX650
+		    <a href="/uk/ipados/">
 	        <img src="images/symbols/assebly-top.PNG" width="100">
+            <span> HX-650 </span>
             </a>
 		</li>
         <li>
-		    <a class="chapternav-link" href="/uk/ipados/">T1000
-			<figure class="chapternav-icon"></figure></a>
+		    <a href="/uk/ipados/">
+	        <img src="images/symbols/assebly-top.PNG" width="100">
+            <span> T-1000 </span>
+            </a>
 		</li>
-
-        <li class="chapternav-item chapternav-item-keyboard">
-            <a class="chapternav-link" href="/uk/smart-keyboard/">
-                <figure class="chapternav-icon"></figure>
-                <span class="chapternav-label">Smart Keyboard</span> </a>
-        </li>
     </ul>
 </nav>
 
 
 
 
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
