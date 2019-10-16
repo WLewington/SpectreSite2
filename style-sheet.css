@@ -38,10 +38,14 @@ nav ul li{
 }
 
 .bannerLogo{    
-    width: 50px;
-    padding: 10px;
+    height: 30px;
+    padding: 0px;
     position: relative;
-    offset: -50px;
+}
+
+.w3-bar a{ 
+    padding: 0px;
+
 }
 
 
