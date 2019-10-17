@@ -114,7 +114,7 @@ function w3_close() {
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
     <span class="w3-jumbo w3-hide-small">Innovation through Automation</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Innovation through Automation</span><br>
     <span class="w3-large">Designs inspired by nature. Built by man.</span>
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
   </div> 
@@ -142,7 +142,7 @@ function w3_close() {
     <div class="w3-half">
       <img src="images/symbols/server.png" width="100">
       <p class="w3-large">Liquid Computing</p>
-      <p>Server grade liquid cooling computer systems, stimulated through convection and silent in operation.</p>
+      <p>Server grade liquid cooling computer systems, stimulated through convection, silent in operation.</p>
     </div>
   </div>
 </div>
@@ -150,7 +150,7 @@ function w3_close() {
 <!-- Team Section -->
 <div class="w3-container" style="padding:128px 16px" id="team">
     <h3 class="w3-center">THE TEAM</h3>
-    <p class="w3-center w3-large">The ones who runs this company</p>
+    <p class="w3-center w3-large">The people that made it possible</p>
     <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-card">
@@ -167,8 +167,8 @@ function w3_close() {
         <div class="w3-card">
           <img src="images/team/liam_benerji.jpeg" alt="Jane" style="width:100%">
           <div class="w3-container">
-            <h3>Anja Doe</h3>
-            <p class="w3-opacity">Art Director</p>
+            <h3>Liam Binerji</h3>
+            <p class="w3-opacity">Head Chemical Engineer</p>
             <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
           </div>
@@ -200,6 +200,98 @@ function w3_close() {
   </div>
   
 
+  
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Product Gallery</h3>
+  <p class="w3-center w3-large">What we've done for people</p>
+
+  <div class="w3-row-padding w3-section" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img  src="/images/products/heatsink_head_finished.jpg" style="width:100%" 
+            onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/images/products/heatsink_head_unfinished.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/images/products/black-and-white-black-and-white-camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="/images/products/blurred-background-camera-camera-equipment-2050720.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/images/products/GRC-immersion-cooling-Dugeo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/images/products/close-up-code-coding-160107.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+
+<style>
+footer{
+  color:white;
+}
+</style>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+
+    <a href="#home" class="w3-bar-item w3-button w3-wide">
+      <img    class = "bannerLogo"    
+      src="images\symbols\sepc_logo_big.png" 
+      alt="Spectre-Systems Logo"/>
+    </a>
+  
+</footer>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
