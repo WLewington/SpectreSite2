@@ -1,41 +1,8 @@
 
 
 
-/* ========= Global Styles ======= */
-body{ 
-    font-size: 20px;
-    /* background: black; */
-}
 
-a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Libre Franklin', sans-serif;
-}
-
-
-nav ul {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-nav ul li{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-
-/* ========= Banner Styles ======= */
-.navbar{
-    display: flex;
-    justify-content: space-evenly;
-}
-
+/*========= Top Banner Styles =======*/
 .bannerLogo{    
     height: 30px;
     padding: 0px;
@@ -46,26 +13,28 @@ nav ul li{
     padding: 0px;
 
 }
-
-
-
-
-/* ==== second Banner Styles ==== */
-.drone_types{
-    background-color: rgb(245, 245, 245);
-    height: 200px;
-} 
-.drone_types ul{
-    display: flex;
-    justify-content: space-evenly;
+.w3-right a{
+    font-size: 20px;
 }
-.drone_types ul li a{
-    color:rgb(54, 54, 54);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
-    flex-wrap: wrap;
-    text-align: center;   
+
+
+
+
+/* ========= Prodiuct info Styles ======= */
+#about{ 
+    font-size: 20px;
 }
+
+/* ========= Global Styles ======= */
+
+
+.product_links div:hover {
+    background-color: rgb(228, 228, 228);;
+
+}
+
+
+
+
+
+/* ==== The team Styles ==== */
